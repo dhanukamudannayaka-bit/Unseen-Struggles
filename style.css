@@ -1494,3 +1494,35 @@ footer p {
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
+
+/* ================= OUR PROJECT PAGE ================= */
+
+.project-hero {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #F0F6F2, #E3EEE8);
+}
+
+.project-hero h1 {
+    font-size: 3.5rem;
+    color: #193B3A;
+    margin: 15px 0;
+}
+
+.project-hero p {
+    color: #285D55;
+    font-size: 1.15rem;
+    max-width: 650px;
+    line-height: 1.8;
+}
+
+.project-hero .tagline {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
